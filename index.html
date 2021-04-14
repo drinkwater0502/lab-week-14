@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Send an email to me!</h1>
+        <p>Enter your email address along with a message in their corresponding sections</p>
+            <form action="https://formspree.io/f/mqkwkrpz" method="post" class="formclass">
+                <label for="email">Your Email</label>
+                <input name="Email" id="email" type="email">
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                <button class="submitbutton" type="submit">Send</button>
+            </form>
+    </div>
+</body>
+</html>
